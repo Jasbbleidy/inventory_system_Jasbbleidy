@@ -1,70 +1,66 @@
-# Proyecto de CRUD de Películas - FastAPI
+# CRUD Proyect for Inventory System - FastAPI
 
-<img src="img/programate-academy.png" alt="Logo Programate">
+<img src="img/Inventory System.png" alt="Logo Inventory System">
 
-## Descripción
+## Description
 
 Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de películas. Está diseñado con un enfoque académico para que los aprendices de programación backend puedan utilizarlo como punto de partida y comenzar a trabajar sobre él.
 
-## Funcionalidades
+## Features
 
-- Obtener todas las películas disponibles
-- Obtener una película por su ID
-- Crear una nueva película
-- Actualizar una película existente
-- Eliminar una película
+- Create a new product
+- Create a new provider
+- Get the products available
+- Get a product with your id
+- Get the provider with your id
+- Upgrade an existing product
+- Upgrade an existing provider
+- Remove a product
+- Remove a provider
 
-## Tecnologías utilizadas
+## Technologies used
 
 - Python
 - FastAPI
 - Pydantic
 
-## Instalación
+## Install
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository in your local machine:
 
-git clone git@github.com:JSand89/my-movie-app-c9.git
+git@github.com:Jasbbleidy/inventory_system_Jasbbleidy.git
 
-
-2. Navega al directorio del proyecto:
+2. Navigates to the project directory:
 
 cd my-movie-app-c9
 
-3. Tu o uno de tus companeros debe cambiar el origen del repositorio 
+3. Change the repository source:
 
 git remote -v
 
 git remote remove origin
 
-git remote add origin <nueva_url_del_repositorio>
+git remote add origin <new_repository_url>
 
-4. Ahora, tus compañeros deben clonar tu repositorio y tú debes darles permiso para editarlo
-
-Desde el repositorio en GitHub, ve a "Settings" y luego a la sección de "Collaborators" para agregarlos. Esto tiene como objetivo permitirles realizar cambios. No te preocupes, realizaremos este proceso en clase."
-
-5. Instala las dependencias necesarias:
+4. Install the necessary dependencies
 
 pip install -r requirements.txt
 
+## Use
 
-## Uso
-
-1. Inicia la aplicación:
+1. Start the application:
 
 uvicorn main:app --reload
 
-
-2. Accede a la documentación de la API en tu navegador:
+2. Access to the API documentation from your browser:
 
 http://localhost:8000/docs
 
+3. Test the different routes available to perform CRUD operations.
 
-3. Prueba las diferentes rutas disponibles para realizar operaciones CRUD en las películas.
+## Contact
 
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [jsanchez@educamas.com.co](jsanchez@educamas.com.co).
+If you have any questions or suggestions about this repository, please contact me at:
+[jasbbleidy.ca@gmail.com](jasbbleidy.ca@gmail.com).
 
 
