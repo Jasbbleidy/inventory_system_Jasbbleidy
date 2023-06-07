@@ -4,7 +4,7 @@
 
 ## Description
 
-Este proyecto es un ejemplo de una API RESTful desarrollada con FastAPI que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de películas. Está diseñado con un enfoque académico para que los aprendices de programación backend puedan utilizarlo como punto de partida y comenzar a trabajar sobre él.
+This project is developed with FastAPI, which allows to perform CRUD (Create, Read, Update, Delete) operations in an inventory system model. It is designed with the objective of learning the creation and development of web applications in the backend and the reinforcement in databases, the handling of python, FastAPI and terminals such as Git Bash.
 
 ## Features
 
